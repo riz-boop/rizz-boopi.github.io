@@ -1,1 +1,1 @@
-# rizz-boopi.github.io
+# rizz-boop.github.io
