@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    margin: 0;
+}
+
+.flower {
+    position: relative;
+    width: 50px;
+    height: 150px;
+}
+
+.stem {
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    height: 100px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.petal {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #00f;
+    border-radius: 50%;
+}
+
+.petal1 {
+    top: -20px;
+    left: 5px;
+}
+
+.petal2 {
+    top: -20px;
+    right: 5px;
+}
+
+.petal3 {
+    top: 0;
+    left: -15px;
+}
+
+.petal4 {
+    top: 0;
+    right: -15px;
+}
